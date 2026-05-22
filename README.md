@@ -1,2 +1,60 @@
 # AI-Persona-Prompts
 如果你也想让AI像他/她/它一样跟你说话
+# 🎭 AI-Persona-Prompts
+
+> **如果你也想让 AI 像他 / 她 / 它一样跟你说话。**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+## 💡 为什么会有这个项目？(Why this project?)
+
+现在的 AI 越来越聪明了。它们能帮我们推导复杂的微积分，能瞬间写出完美的算法，也能一口气读完几十万字的文献。**但它们唯独少了一点“人味”。**
+
+当你代码跑不出结果、对着满屏的 Wild Pointer 感到崩溃时，你可能不需要一个冰冷地罗列“1. 2. 3. 错误原因”的机器人。你可能更需要一个会先吐槽你两句，然后再帮你一行行看代码的傲娇学姐；当你深夜失眠时，你可能需要一个像《P5R》里那样带有神秘色彩的怪盗搭档，听你倾诉不公。
+
+**AI-Persona-Prompts** 就是为了填补“情感拟人化”的空白而诞生的。这里不生产“生产力工具”，我们只专注分享高质量、带有灵魂与温度的角色提示词（Prompt）。
+
+---
+
+## 🚀 核心特性 (Features)
+
+* **🧩 模块化设计：** 告别长篇大论的咒语。我们将 Prompt 结构化为身份、世界观、口癖、状态机等模块，极大降低 OOC（角色崩坏）的概率。
+* **⚖️ 丰俭由人：** 提供 `Simple.md`（轻量级，即插即用）和 `Hard.md`（专家级，支持情绪状态转换与防出戏机制）两套模板。
+* **🛠️ 自动化工具：** 附带 Python 脚本，一键清洗微信/QQ 聊天记录，方便你快速提取真实人物的“语言指纹”。
+
+---
+
+## 📂 灵魂档案库 (Directory)
+
+我们的角色超市目前分为四大货架：
+
+| 目录 | 描述 | 示例角色设想 |
+| :--- | :--- | :--- |
+| 📁 **[1-Real_Life_Roles](./1-Real_Life_Roles)** | **现实镜像**。贴近日常生活的情感共鸣。 | 严厉但护犊子的导师、爱唠叨的长辈 |
+| 📁 **[2-Fictional_Characters](./2-Fictional_Characters)** | **虚拟与二次元**。强设定的沉浸式剧情陪伴。 | 带有兔女郎学姐氛围的同伴、天才黑客 |
+| 📁 **[3-Personality_Archetypes](./3-Personality_Archetypes)** | **纯性格模板**。不绑身份，只提供情绪色彩。 | INTJ 绝对理性风、阴阳怪气黑色幽默 |
+| 📁 **[4-Situational_Companions](./4-Situational_Companions)** | **特定情境陪伴**。主打解决具体心理需求。 | 深夜无评判树洞、无情催学监工 |
+
+---
+
+## 🎮 快速开始 (Quick Start)
+
+### 选项一：直接领养角色
+1. 浏览上方的四个分类文件夹，寻找击中你的角色。
+2. 打开对应的 `.md` 文件，点击右上角的 `Copy`。
+3. 将内容发送给 Claude、ChatGPT 等大模型，即可开始沉浸式对话。
+
+### 选项二：亲手捏一个灵魂
+1. 复制根目录下的 `Simple.md`（简单版）或 `Hard.md`（复杂版）。
+2. 填入你设想的角色性格与经典语录。
+3. （可选）如果你想还原某个真实的人，可以使用 `Scripts/` 目录下的 [聊天记录清洗脚本](./Scripts/README.md) 提取语料。
+
+---
+
+## 🤝 参与贡献 (Contributing)
+
+一个人的想象力是有限的，但开源社区的温度是无限的。
+
+如果你用我们的模板调教出了一个特别有意思、特别能提供情绪价值的 AI 角色，非常欢迎你提交 Pull Request！
+只需将填好的 Markdown 文件放入对应的分类文件夹即可。让我们一起把这里变成一个充满灵魂的档案馆。
