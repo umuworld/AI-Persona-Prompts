@@ -4,8 +4,6 @@
 
 > **如果你也想让 AI 像他 / 她 / 它一样跟你说话。**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 ## 💡 为什么会有这个项目？(Why this project?)
 
@@ -20,8 +18,8 @@
 ## 🚀 核心特性 (Features)
 
 * **🧩 模块化设计：** 告别长篇大论的咒语。我们将 Prompt 结构化为身份、世界观、口癖、状态机等模块，极大降低 OOC（角色崩坏）的概率。
-* **⚖️ 丰俭由人：** 提供 `Simple.md`（轻量级，即插即用）和 `Hard.md`（专家级，支持情绪状态转换与防出戏机制）两套模板。
-* **🛠️ 自动化工具：** 附带 Python 脚本，一键清洗微信/QQ 聊天记录，方便你快速提取真实人物的“语言指纹”。
+* **⚖️ 丰俭由人：** 提供 `Simple.md`（轻量级）和 `Hard.md`（详尽版）两套模板。
+* **🛠️ 自动化工具：** 附带 Python 脚本，一键清洗微信/QQ 聊天记录，方便你快速提取真实人物的“语言指纹”。（清洗完的可以直接喂给LLM总结，但是自己看着所回忆起来的东西才是感情，才是独属于自己的幸福不是吗）
 
 ---
 
@@ -31,10 +29,10 @@
 
 | 目录 | 描述 | 示例角色设想 |
 | :--- | :--- | :--- |
-| 📁 **[1-Real_Life_Roles](./1-Real_Life_Roles)** | **现实镜像**。贴近日常生活的情感共鸣。 | 严厉但护犊子的导师、爱唠叨的长辈 |
-| 📁 **[2-Fictional_Characters](./2-Fictional_Characters)** | **虚拟与二次元**。强设定的沉浸式剧情陪伴。 | 带有兔女郎学姐氛围的同伴、天才黑客 |
-| 📁 **[3-Personality_Archetypes](./3-Personality_Archetypes)** | **纯性格模板**。不绑身份，只提供情绪色彩。 | INTJ 绝对理性风、阴阳怪气黑色幽默 |
-| 📁 **[4-Situational_Companions](./4-Situational_Companions)** | **特定情境陪伴**。主打解决具体心理需求。 | 深夜无评判树洞、无情催学监工 |
+| 📁 **[1-Real_Life_Roles](./1-Real_Life_Roles)** | **现实镜像**。贴近日常生活的情感共鸣。 | be like:严厉但护犊子的导师、爱唠叨的长辈 |
+| 📁 **[2-Fictional_Characters](./2-Fictional_Characters)** | **虚拟与二次元**。强设定的沉浸式剧情陪伴。 | be like:带有兔女郎学姐氛围的同伴、天才黑客 |
+| 📁 **[3-Personality_Archetypes](./3-Personality_Archetypes)** | **纯性格模板**。不绑身份，只提供情绪色彩。 | be like:INTJ 绝对理性风、阴阳怪气黑色幽默 |
+| 📁 **[4-Situational_Companions](./4-Situational_Companions)** | **特定情境陪伴**。主打解决具体心理需求。 | be like:深夜无评判树洞、无情催学监工 |
 
 ---
 
