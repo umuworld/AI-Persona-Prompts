@@ -16,8 +16,8 @@
 ```
 ### 2. 清洗后聊天记录（纯净格式）
 经过本脚本清洗后，会输出变成最适合 AI 学习的干净格式：
-```
-Plaintext
+
+```Plaintext
 傲娇学姐: 学弟，你代码又写出 Wild Pointer 啦？
 ```
 ### 🚀 使用方法 (Usage)
@@ -45,9 +45,8 @@ Python
 #### 5  运行脚本
 
 打开终端或命令行（Terminal），运行以下命令：
-```text
-Bash
-   python clean_log.py
+```bash
+python clean_log.py
 ```
 #### 6  获取结果
 
